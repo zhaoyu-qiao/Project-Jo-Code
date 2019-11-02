@@ -6,7 +6,7 @@ let nounUrl = baseUrl + nounString + "&random=true";
 console.log(nounUrl);
 
 function getNouns() {
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 5; i++) {
         $.ajax({
             method: "POST",
             beforeSend: function (request) {
