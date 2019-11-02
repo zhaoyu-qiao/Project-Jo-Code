@@ -3,7 +3,16 @@
 // curl 'https://wordsapiv1.p.mashape.com/words/?partOfSpeech=adverb&random=true' -H "X-Mashape-Key: c689d162f5mshf499a4cc1699b78p184059jsn3776ce81a3ea"
 let baseUrl = "https://wordsapiv1.p.mashape.com/words/";
 let nounString = "?partOfSpeech=noun";
+let verbString = "?partOfSpeech=verb";
+let adjectiveString = "?partOfSpeech=adjective";
+let adverbString = "?partOfSpeech=adverb";
+
+
 let nounUrl = baseUrl + nounString + "&random=true";
+let verbUrl = baseUrl + verbString + "&random=true";
+let adjectiveUrl = baseUrl + adjectiveString + "&random=true";
+let adverbUrl = baseUrl + adverbString + "&random=true";
+
 let nounArray = [];
 
 console.log(nounUrl);
